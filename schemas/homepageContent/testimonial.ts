@@ -13,8 +13,8 @@ const testimonial = {
 }
 
 export default {
-  name: 'testimonial',
-  title: 'Testimonial',
+  name: 'testimonialSection',
+  title: 'Testimonial Section',
   type: 'object',
   fields: [
     {

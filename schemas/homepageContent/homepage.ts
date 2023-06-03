@@ -4,7 +4,7 @@ import OurServices from './OurServices'
 import featureSection from './featureSection'
 import heroSection from './heroSection'
 import {ourClients} from './ourClients'
-import testimonial from './testimonial'
+import testimonialSection from './testimonial'
 
 export default {
   name: 'homepage',
@@ -20,7 +20,7 @@ export default {
     heroSection,
     ourClients,
     OurServices,
-    testimonial,
+    testimonialSection,
 
     {
       name: 'ourTeam',

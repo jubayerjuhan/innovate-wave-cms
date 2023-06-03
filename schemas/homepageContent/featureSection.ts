@@ -26,13 +26,18 @@ export default {
       type: 'image',
     },
     {
-      name: 'orientation',
-      title: 'Orientation',
+      name: 'reverse',
+      title: 'Reverse',
+      type: 'boolean',
+    },
+    {
+      name: 'bulletType',
+      title: 'Bullet Type',
       type: 'string',
       options: {
         list: [
-          {title: 'Middle', value: 'middle'},
-          {title: 'Left', value: 'left'},
+          {value: 'iconAndTitle', title: 'Icon and Title'},
+          {value: 'iconOnly', title: 'Icon Only'},
         ],
       },
     },
