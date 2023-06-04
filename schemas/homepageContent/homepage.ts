@@ -21,18 +21,5 @@ export default {
     ourClients,
     OurServices,
     testimonialSection,
-
-    {
-      name: 'ourTeam',
-      title: 'Our Team Section',
-      type: 'object',
-      fields: [
-        {
-          name: 'title',
-          title: 'Title',
-          type: 'string',
-        },
-      ],
-    },
   ],
 }

@@ -23,6 +23,18 @@ export default {
       type: 'string',
     },
     {
+      name: 'orientation',
+      title: 'Orientation',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Left', value: 'left'},
+          {title: 'Middle', value: 'middle'},
+        ],
+        layout: 'radio',
+      },
+    },
+    {
       name: 'subtitle',
       title: 'Subtitle',
       type: 'string',
