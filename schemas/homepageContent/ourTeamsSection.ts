@@ -33,6 +33,18 @@ export default {
       type: 'string',
     },
     {
+      name: 'orientation',
+      title: 'Orientation',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Left', value: 'left'},
+          {title: 'Middle', value: 'middle'},
+        ],
+        layout: 'radio',
+      },
+    },
+    {
       name: 'teamMembers',
       title: 'Team Members',
       type: 'array',

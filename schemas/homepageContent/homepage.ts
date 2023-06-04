@@ -4,6 +4,7 @@ import OurServices from './OurServices'
 import featureSection from './featureSection'
 import heroSection from './heroSection'
 import {ourClients} from './ourClients'
+import ourTeamsSection from './ourTeamsSection'
 import testimonialSection from './testimonial'
 
 export default {
@@ -21,5 +22,6 @@ export default {
     ourClients,
     OurServices,
     testimonialSection,
+    ourTeamsSection,
   ],
 }
