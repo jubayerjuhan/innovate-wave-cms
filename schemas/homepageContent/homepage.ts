@@ -2,6 +2,7 @@
 
 import OurServices from './OurServices'
 import featureSection from './featureSection'
+import footer from './footer'
 import heroSection from './heroSection'
 import {ourClients} from './ourClients'
 import ourTeamsSection from './ourTeamsSection'
