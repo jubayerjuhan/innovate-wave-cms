@@ -19,7 +19,7 @@ export const footerLinkColumn = {
   name: 'footerColumn',
   title: 'Footer Column',
   type: 'object',
-  fields: [footerLink],
+  fields: [{name: 'footerColumnTitle', title: 'Footer Column Title', type: 'string'}, footerLink],
 }
 
 export const footerLinkFields = [
