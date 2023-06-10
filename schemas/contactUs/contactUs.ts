@@ -1,26 +1,7 @@
-export const formField = {
-  name: 'field',
-  fieldTitle: 'Field',
-  type: 'object',
-  fields: [
-    {name: 'fieldName', title: 'Field Name', type: 'string'},
-    {name: 'fieldTitle', title: 'Field Title', type: 'string'},
-    {name: 'fieldPlaceholder', title: 'Field Placeholder', type: 'string'},
-    {
-      name: 'fieldType',
-      title: 'Field Type',
-      type: 'string',
-      options: {
-        list: [
-          {title: 'String', value: 'string'},
-          {title: 'Number', value: 'number'},
-          {title: 'Boolean', value: 'boolean'},
-        ],
-      },
-    },
-    {name: 'fieldWidth', title: 'Field Width', type: 'string'},
-  ],
-}
+// export const moreWaysToContact = {}
+
+import {formField} from './contactUs_formField'
+import {moreWaysToContact} from './contactUs_moreWays'
 
 export default {
   name: 'contactUs',
@@ -48,5 +29,6 @@ export default {
         {name: 'fields', title: 'Form Fields', type: 'array', of: [formField]},
       ],
     },
+    moreWaysToContact,
   ],
 }
